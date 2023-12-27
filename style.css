@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+
+    color: #fff;
+}
+
+.container { 
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.background__img { 
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url("./img/funnyboy.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.background__img .fun-fact { 
+    width: 30rem;
+    height: 20rem;
+    position: absolute;
+    top: 200px;
+    left: 620px;
+    
+}
+
+.flex { 
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txt { 
+    width: 500px;
+    height: 200px; 
+    overflow: auto;
+    background-color: rgba(237, 232, 232, 0.509);
+    color: black;
+    margin: 1rem 0rem 2rem 0rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    padding: 20px;
+    text-align: center;
+}
+
+button { 
+
+    width: 10em;
+    height: 2em;
+    color: black;
+    font-size: larger;
+}
+
