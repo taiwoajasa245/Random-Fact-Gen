@@ -1,6 +1,6 @@
 # Random Cat Fact Generator
 
-![Cat](.\img\cat-3523992_640.jpg)
+![Cat](\img\cat-3523992_640.jpg)
 
 ## Overview
 
