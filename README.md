@@ -11,15 +11,9 @@ This project is a simple random cat fact generator. It provides users with inter
 - Displays a random cat fact on each request.
 - Simple and easy to use.
 
-## Demo
-
-Include a link to a live demo or a screenshot/gif of your application.
 
 ## Getting Started
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) installed on your machine.
 
 ### Installation
 
