@@ -10,6 +10,7 @@ This project is a simple random cat fact generator. It provides users with inter
 
 - Displays a random cat fact on each request.
 - Simple and easy to use.
+- just a click of a button 
 
 
 ## Getting Started
