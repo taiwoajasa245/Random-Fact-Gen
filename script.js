@@ -37,8 +37,7 @@ async function handlemeasync() {
         method:"GET",
         headers: { 
             "Content-type":"application/json"
-        }, 
-        // body: { something}
+        },
     }); 
 
     const format = await res.json(); 
@@ -48,4 +47,4 @@ async function handlemeasync() {
     // console.log(text);
 
 
-}
+};
