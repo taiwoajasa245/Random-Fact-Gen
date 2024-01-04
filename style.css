@@ -1,53 +1,54 @@
+/* Importing fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-
-* { 
+/* Resetting default styles */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bold;
-
     color: #fff;
 }
 
-.container { 
+/* Container Styles */
+.container {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.background__img { 
+/* Background Image Styles */
+.background__img {
     width: 100%;
     height: 100vh;
     position: relative;
-    background-image: url("./img/cat.jpg") ;
+    background-image: url("./img/cat.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
-.background__img .fun-fact { 
-    width: 30rem;
-    height: 20rem;
+/* Fun Fact Styles */
+.background__img .fun-fact {
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
     position: absolute;
-    top: 200px;
-    left: 620px;
-    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-.flex { 
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.txt { 
-    width: 500px;
-    height: 200px; 
+/* Text Styles */
+.txt {
+    width: 100%;
+    max-height: 200px;
     overflow: auto;
     background-color: rgba(237, 232, 232, 0.509);
     color: black;
@@ -55,14 +56,54 @@
     border-radius: 1rem;
     font-size: 1.5rem;
     padding: 20px;
-    text-align: center;
 }
 
-button { 
-
-    width: 10em;
+/* Button Styles */
+button {
+    width: 100%;
+    max-width: 200px;
     height: 2em;
     color: black;
     font-size: larger;
+    cursor: pointer;
+    margin-top: 1rem;
 }
 
+
+/* For WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+   width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: #7f8c8d; /* Change the color of the thumb */
+   border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+   background-color: #ecf0f1; /* Change the color of the track */
+}
+
+/* For Firefox */
+/* Note: Firefox supports scrollbar styling with only a limited set of properties */
+div {
+   scrollbar-width: thin;
+   scrollbar-color: #7f8c8d #ecf0f1; /* thumb and track colors */
+}
+
+
+/* Media Queries for Responsive Design */
+
+/* Tablets and larger */
+@media only screen and (min-width: 600px) {
+    .background__img .fun-fact {
+        width: 60%;
+    }
+}
+
+/* Desktops and larger */
+@media only screen and (min-width: 900px) {
+    .background__img .fun-fact {
+        width: 50%;
+    }
+}
