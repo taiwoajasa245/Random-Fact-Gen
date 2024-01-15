@@ -69,7 +69,6 @@ button {
     margin-top: 1rem;
 }
 
-
 /* For WebKit (Chrome, Safari) */
 ::-webkit-scrollbar {
    width: 12px;
@@ -85,7 +84,6 @@ button {
 }
 
 /* For Firefox */
-/* Note: Firefox supports scrollbar styling with only a limited set of properties */
 div {
    scrollbar-width: thin;
    scrollbar-color: #7f8c8d #ecf0f1; /* thumb and track colors */
