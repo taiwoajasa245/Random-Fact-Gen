@@ -21,4 +21,9 @@ This project is a simple random cat fact generator. It provides users with inter
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/random-cat-fact-generator.git
+   git clone https://github.com/taiwoajasa245/Random-Fact-Gen.git
+2. Change Directory:
+
+   ```bash
+   cd Random-Fact-Gen
+
